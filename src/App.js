@@ -15,7 +15,7 @@ import {
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/YouTube">
       <Box sx={{ backgroundColor: "#000" }}>
         <Navbar />
         <Routes>
