@@ -15,6 +15,9 @@ const Feed = () => {
     );
   }, [selectedCategory]);
 
+  const [button, setButton] = useState(true);
+  const fui = true;
+
   return (
     <Stack sx={{ flexDirection: { sx: "column", md: "row" } }}>
       <Box
